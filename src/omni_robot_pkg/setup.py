@@ -34,6 +34,7 @@ setup(
             # Gerçek robot düğümleri
             'roboclaw_driver  = omni_robot_pkg.roboclaw_driver_node:main',
             'lidar_node       = omni_robot_pkg.lidar_node:main',
+            'encoder_test     = omni_robot_pkg.encoder_test_node:main',
             # Ortak düğümler (simülasyon + gerçek robot)
             'odometry_node    = omni_robot_pkg.odometry_node:main',
             'lidar_processor  = omni_robot_pkg.lidar_processor_node:main',
